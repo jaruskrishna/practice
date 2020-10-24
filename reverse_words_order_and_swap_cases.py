@@ -28,6 +28,8 @@ def reverse_words_order_and_swap_cases(sentence):
     # Reverse and the joining the list into a string.
     reverse = ' '.join(reversed(words))
     print(reverse)
+    
+    #Retur a string.
     return reverse
     
 if __name__ == '__main__':
