@@ -42,7 +42,16 @@ class LinkedList:
             itr = itr.next
         itr.next = node
         
-    
+    def insert_at(self, index, data):
+        print("Inserting at inde x = ", index)
+        itr = self.head
+        num = 0
+        while itr:
+            if num == index - 1:
+                node = Node(data, itr.next)
+                itr.next = node  
+            itr = itr.next
+            num += 1         
                     
 if __name__ == "__main__":
     print("***Wellcome to Linked List****")
@@ -55,4 +64,9 @@ if __name__ == "__main__":
     ll.printing()
     ll.length_of_ll()
     ll.insert_at_end(121)
+    ll.printing()
+    ll.insert_at_begining([12,13,14,15])
+    ll.printing()
+    ll.insert_at(1,25)
+    ll.length_of_ll()
     ll.printing()
