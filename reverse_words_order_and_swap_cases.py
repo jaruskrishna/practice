@@ -29,13 +29,13 @@ def reverse_words_order_and_swap_cases(sentence):
     reverse = ' '.join(reversed(words))
     print(reverse)
     
-    #Retur a string.
+    # Return a string.
     return reverse
     
 if __name__ == '__main__':
     
-    #fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    # fptr = open(os.environ['OUTPUT_PATH'], 'w')
     sentence = input()
     result = reverse_words_order_and_swap_cases(sentence)
-    #fptr.write(result + '\n')
-    #fptr.close()
+    # fptr.write(result + '\n')
+    # fptr.close()
