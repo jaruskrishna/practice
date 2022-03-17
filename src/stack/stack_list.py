@@ -1,11 +1,9 @@
 
 def operations(n):
-    # Declaring an empty list.
-    stack = n
 
     # Converting ito a list.
     stack_list = []
-    stack_list = list(stack)
+    stack_list = list(n)
 
     print('Stack elements - {} ' .format(stack_list))
 
