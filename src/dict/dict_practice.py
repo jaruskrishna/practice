@@ -1,3 +1,5 @@
+
+
 #Sort the dictionary by key
 from  collections import OrderedDict
 def ordered_using_key(ll):
@@ -38,6 +40,13 @@ def convert_dict_list(td):
 
     res1 = res[0] + res[1] + res[2]
     print("\nMerge the inner lists to one list -\n",  res1)
+
+
+#Convert List to List of dictionaries
+
+def list_t0_dict(self, ):
+    pass
+
 
 
 if __name__ == '__main__':
