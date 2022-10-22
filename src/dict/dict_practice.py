@@ -1,7 +1,7 @@
 
 
 #Sort the dictionary by key
-from  collections import OrderedDict
+from collections import OrderedDict
 def ordered_using_key(ll):
 
     print("\nBefore the Ordered -\n")
