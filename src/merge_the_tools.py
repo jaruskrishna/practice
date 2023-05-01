@@ -6,7 +6,7 @@ def merge_the_tools(string, k):
     #print(num)
     out = [(string[i:i+num]) for i in range(0, len(string), num)]
     #print(out)
-    
+    my_list = []
     for i in range(len(out)):
         print(out[i])
         a = removeDupWithoutOrder(out(i))
