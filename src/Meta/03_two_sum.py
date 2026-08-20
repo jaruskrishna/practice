@@ -20,6 +20,5 @@ if __name__ == '__main__':
     nums = [1,1,2,3,3,4]
     taregt = 5
     twosum(nums, taregt)
-    print("The 2 numbers are ",  )
 
 
